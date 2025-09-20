@@ -1,0 +1,209 @@
+/* Custom styles for the movie recommender */
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2F2F2F;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E50914;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b8070f;
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Custom slider styling */
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #2F2F2F;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #E50914;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #E50914;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+}
+
+/* Loading animations */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Movie card hover effects */
+.movie-card {
+    transition: all 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* Explanation modal backdrop */
+.explanation-modal {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+/* Star rating component */
+.star-rating .star {
+    font-size: 1.5rem;
+    color: #666;
+    transition: color 0.2s ease;
+    cursor: pointer;
+    user-select: none;
+}
+
+.star-rating .star:hover,
+.star-rating .star.active {
+    color: #ffd700;
+}
+
+/* Custom form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    transition: all 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(229, 9, 20, 0.15);
+}
+
+/* Notification styles */
+.notification {
+    animation: slideInRight 0.3s ease-out;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Genre tags */
+.genre-tag {
+    background: linear-gradient(135deg, #2F2F2F 0%, #1a1a1a 100%);
+    border: 1px solid #444;
+    transition: all 0.2s ease;
+}
+
+.genre-tag:hover {
+    border-color: #E50914;
+    background: linear-gradient(135deg, #E50914 0%, #b8070f 100%);
+}
+
+/* Progress bars */
+.progress-bar {
+    background: linear-gradient(90deg, #E50914 0%, #ff4757 100%);
+    transition: width 0.5s ease;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+    .movie-card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .explanation-modal {
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+}
+
+/* Dark mode enhancements */
+.dark {
+    color-scheme: dark;
+}
+
+/* Custom checkbox styling */
+input[type="checkbox"] {
+    accent-color: #E50914;
+}
+
+input[type="radio"] {
+    accent-color: #E50914;
+}
+
+/* Smooth transitions for all interactive elements */
+button,
+a,
+input,
+textarea,
+select {
+    transition: all 0.2s ease;
+}
+
+/* Focus styles for accessibility */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+    outline: 2px solid #E50914;
+    outline-offset: 2px;
+}
+
+/* Loading skeleton */
+.skeleton {
+    background: linear-gradient(90deg, #2F2F2F 25%, #3a3a3a 50%, #2F2F2F 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}

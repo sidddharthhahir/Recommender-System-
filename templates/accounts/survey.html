@@ -1,0 +1,193 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome - Tell us about your preferences{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-gradient-to-br from-netflix-black via-netflix-gray to-netflix-black flex items-center justify-center px-4">
+    <div class="max-w-2xl w-full" x-data="surveyForm()">
+        <div class="bg-netflix-gray rounded-lg shadow-2xl p-8">
+            <!-- Header -->
+            <div class="text-center mb-8">
+                <h1 class="text-3xl font-bold text-netflix-red mb-2">Welcome to MovieRec!</h1>
+                <p class="text-gray-300">Help us understand your movie preferences to get personalized recommendations</p>
+            </div>
+
+            <!-- Survey Form -->
+            <form @submit.prevent="submitSurvey" class="space-y-6">
+                <!-- Genres -->
+                <div>
+                    <label class="block text-sm font-medium mb-3">What are your favorite movie genres? (Select up to 5)</label>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                        <template x-for="genre in availableGenres" :key="genre">
+                            <label class="flex items-center space-x-2 cursor-pointer">
+                                <input 
+                                    type="checkbox" 
+                                    :value="genre" 
+                                    x-model="formData.favorite_genres"
+                                    :disabled="formData.favorite_genres.length >= 5 && !formData.favorite_genres.includes(genre)"
+                                    class="rounded border-gray-600 bg-netflix-black text-netflix-red focus:ring-netflix-red"
+                                >
+                                <span class="text-sm" :class="formData.favorite_genres.includes(genre) ? 'text-netflix-red' : 'text-gray-300'" x-text="genre"></span>
+                            </label>
+                        </template>
+                    </div>
+                    <p class="text-xs text-gray-400 mt-1" x-text="`Selected: ${formData.favorite_genres.length}/5`"></p>
+                </div>
+
+                <!-- Favorite Actor -->
+                <div>
+                    <label class="block text-sm font-medium mb-2">Who's your favorite actor/actress?</label>
+                    <input 
+                        type="text" 
+                        x-model="formData.favorite_actor"
+                        placeholder="e.g., Leonardo DiCaprio, Meryl Streep"
+                        class="w-full px-3 py-2 bg-netflix-black border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-netflix-red focus:border-transparent"
+                    >
+                </div>
+
+                <!-- Last Loved Movie -->
+                <div>
+                    <label class="block text-sm font-medium mb-2">What's the last movie you absolutely loved?</label>
+                    <input 
+                        type="text" 
+                        x-model="formData.last_loved_movie"
+                        placeholder="e.g., Inception, The Shawshank Redemption"
+                        class="w-full px-3 py-2 bg-netflix-black border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-netflix-red focus:border-transparent"
+                    >
+                </div>
+
+                <!-- Rating Style -->
+                <div>
+                    <label class="block text-sm font-medium mb-3">How would you describe your rating style?</label>
+                    <div class="space-y-2">
+                        <template x-for="style in ratingStyles" :key="style.value">
+                            <label class="flex items-center space-x-3 cursor-pointer">
+                                <input 
+                                    type="radio" 
+                                    :value="style.value" 
+                                    x-model="formData.rating_style"
+                                    class="text-netflix-red focus:ring-netflix-red"
+                                >
+                                <div>
+                                    <span class="font-medium" x-text="style.label"></span>
+                                    <p class="text-sm text-gray-400" x-text="style.description"></p>
+                                </div>
+                            </label>
+                        </template>
+                    </div>
+                </div>
+
+                <!-- Openness -->
+                <div>
+                    <label class="block text-sm font-medium mb-3">How open are you to discovering new movies?</label>
+                    <div class="flex items-center space-x-4">
+                        <span class="text-sm text-gray-400">Prefer classics</span>
+                        <input 
+                            type="range" 
+                            min="1" 
+                            max="10" 
+                            x-model="formData.openness_to_new"
+                            class="flex-1 h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer"
+                        >
+                        <span class="text-sm text-gray-400">Love new releases</span>
+                    </div>
+                    <p class="text-center text-sm text-netflix-red mt-2" x-text="`Current: ${formData.openness_to_new}/10`"></p>
+                </div>
+
+                <!-- Submit -->
+                <div class="pt-4">
+                    <button 
+                        type="submit" 
+                        :disabled="!canSubmit || isSubmitting"
+                        :class="canSubmit && !isSubmitting ? 'bg-netflix-red hover:bg-red-700' : 'bg-gray-600 cursor-not-allowed'"
+                        class="w-full py-3 px-4 rounded-md font-medium transition-colors duration-200"
+                    >
+                        <span x-show="!isSubmitting">Complete Survey & Get Recommendations</span>
+                        <span x-show="isSubmitting" class="flex items-center justify-center">
+                            <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                            Processing...
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+function surveyForm() {
+    return {
+        formData: {
+            favorite_genres: [],
+            favorite_actor: '',
+            last_loved_movie: '',
+            rating_style: 'balanced',
+            openness_to_new: 5
+        },
+        isSubmitting: false,
+        availableGenres: [
+            'Action','Adventure','Animation','Comedy','Crime','Documentary',
+            'Drama','Family','Fantasy','History','Horror','Music',
+            'Mystery','Romance','Science Fiction','Thriller','War','Western'
+        ],
+        ratingStyles: [
+            { value: 'generous', label: 'Generous', description: 'I tend to rate movies highly and focus on the positives' },
+            { value: 'balanced', label: 'Balanced', description: 'I give fair ratings based on overall quality' },
+            { value: 'critical', label: 'Critical', description: 'I have high standards and rate movies strictly' }
+        ],
+
+        get canSubmit() {
+            return this.formData.favorite_genres.length > 0;
+        },
+
+        async submitSurvey() {
+            if (!this.canSubmit || this.isSubmitting) return;
+            this.isSubmitting = true;
+            try {
+                const response = await fetch('/accounts/survey/api/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCookie('csrftoken'),
+                    },
+                    body: JSON.stringify(this.formData)
+                });
+                const data = await response.json();
+                if (data.success) {
+                    window.showNotification('Survey completed! Redirecting...', 'success');
+                    setTimeout(() => {
+                        window.location.href = '/recommender/recommendations/';
+                    }, 1500);
+                } else {
+                    throw new Error(data.message || 'Survey submission failed');
+                }
+            } catch (e) {
+                console.error("Survey error", e);
+                window.showNotification('Failed to submit survey. Please try again.', 'error');
+            } finally {
+                this.isSubmitting = false;
+            }
+        }
+    }
+}
+
+// CSRF helper
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            let cookie = cookies[i].trim();
+            if (cookie.substring(0, name.length+1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length+1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+</script>
+{% endblock %}

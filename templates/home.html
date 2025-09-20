@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mt-10 px-10">
+  <h1 class="text-3xl font-bold text-white mb-6">Trending Movies 🎥</h1>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    {% for movie in movies %}
+      <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:scale-105 transition-transform">
+        {% if movie.poster_path %}
+          <img src="https://image.tmdb.org/t/p/w500{{ movie.poster_path }}" 
+               alt="{{ movie.title }}" 
+               class="w-full h-60 object-cover">
+        {% endif %}
+        <div class="p-4">
+          <h2 class="text-lg font-semibold text-white">{{ movie.title }}</h2>
+          <p class="text-gray-400 text-sm mt-2">{{ movie.overview|truncatewords:20 }}</p>
+          <p class="text-yellow-400 font-bold mt-2">⭐ {{ movie.tmdb_rating }}</p>
+        </div>
+      </div>
+    {% empty %}
+      <p class="text-gray-400">No movies available at the moment.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

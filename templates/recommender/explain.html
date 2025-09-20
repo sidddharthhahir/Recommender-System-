@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Why {{ movie.title }}?{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto p-6 bg-gray-900 rounded-lg shadow-lg text-white">
+
+  {% if error %}
+    <div class="bg-red-600 text-white p-3 rounded">{{ error }}</div>
+  {% else %}
+    <!-- Movie Header -->
+    <div class="flex items-start space-x-6 mb-6">
+      <img src="{{ movie.poster_url }}" alt="{{ movie.title }}"
+           class="w-40 rounded-lg shadow-lg">
+      <div>
+        <h1 class="text-3xl font-bold text-red-500">{{ movie.title }}</h1>
+        <p class="text-gray-400">⭐ {{ movie.tmdb_rating }} | {{ movie.release_date }}</p>
+        <a href="{% url 'recommender:recommendations' %}" class="text-xs text-blue-400 hover:text-blue-200">
+          ← Back to Recommendations
+        </a>
+      </div>
+    </div>
+
+    <!-- Explanation Section -->
+    <div>
+      <h2 class="text-xl font-semibold mb-3">Why we recommended this movie for you:</h2>
+
+      {% if explanation %}
+        <ul class="space-y-2 text-sm">
+          {% for key, value in explanation.items %}
+            <li class="bg-gray-800 p-3 rounded">
+              <span class="font-bold">{{ key|capfirst }}:</span>
+              <span class="text-gray-300">{{ value }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="text-gray-400">No explanation available for this recommendation.</p>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Explanation History{% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-white mb-8">Your Explanation History</h1>
+    
+    <div class="grid gap-6">
+        {% for explanation in explanations %}
+        <div class="bg-gray-800 rounded-lg p-6">
+            <div class="flex items-center justify-between mb-4">
+                <h3 class="text-xl font-semibold text-white">{{ explanation.movie.title }}</h3>
+                <span class="text-sm text-gray-400">{{ explanation.created_at|date:"M d, Y H:i" }}</span>
+            </div>
+            
+            <div class="flex items-center gap-4 mb-4">
+                <span class="px-3 py-1 bg-blue-600 text-white text-sm rounded-full">
+                    {{ explanation.get_explanation_type_display }}
+                </span>
+                <span class="text-gray-400 text-sm">
+                    Generated in {{ explanation.generation_time_ms }}ms
+                </span>
+            </div>
+            
+            <div class="bg-gray-700 rounded p-4">
+                <h4 class="text-white font-medium mb-2">Explanation Data:</h4>
+                <pre class="text-gray-300 text-sm overflow-x-auto">{{ explanation.explanation_data|pprint }}</pre>
+            </div>
+            
+            {% if explanation.helpful_rating %}
+            <div class="mt-4">
+                <span class="text-gray-400">Your rating: </span>
+                <span class="text-yellow-400">
+                    {% for i in "12345" %}
+                        {% if forloop.counter <= explanation.helpful_rating %}★{% else %}☆{% endif %}
+                    {% endfor %}
+                </span>
+            </div>
+            {% endif %}
+        </div>
+        {% empty %}
+        <div class="text-center py-12">
+            <p class="text-gray-400 text-lg">No explanations generated yet.</p>
+            <p class="text-gray-500">Start exploring recommendations to see explanations!</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

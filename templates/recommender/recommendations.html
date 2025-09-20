@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mx-auto px-6 py-8">
+    <h2 class="text-3xl text-white font-bold mb-6">Recommended For You</h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        {% for movie in recommendations %}
+        <div class="movie-card bg-gray-800 rounded-lg overflow-hidden shadow-lg"
+             data-movie-id="{{ movie.id }}">
+            <img src="{{ movie.poster_url }}" alt="{{ movie.title }}" class="w-full h-64 object-cover">
+            <div class="p-3">
+                <h3 class="text-sm font-semibold text-white truncate">{{ movie.title }}</h3>
+                <p class="text-xs text-gray-400">Rating: {{ movie.tmdb_rating|default:"N/A" }}</p>
+                <p class="text-xs text-gray-400">Score: {{ movie.confidence_score }}</p>
+
+                <button class="explain-btn bg-blue-600 hover:bg-blue-700 text-white text-xs px-2 py-1 rounded mt-2"
+                        data-movie-id="{{ movie.id }}"
+                        data-movie-title="{{ movie.title }}">
+                    Why recommended?
+                </button>
+                
+                <!-- Inline explanation container (initially hidden) -->
+                <div class="explanation-content mt-3 p-2 bg-gray-700 rounded text-xs text-gray-300 hidden"
+                     id="explanation-{{ movie.id }}">
+                    <div class="loading-text">Loading explanation...</div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Handle explain button clicks
+    document.querySelectorAll('.explain-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const movieId = this.getAttribute('data-movie-id');
+            const movieTitle = this.getAttribute('data-movie-title');
+            const explanationDiv = document.getElementById(`explanation-${movieId}`);
+            
+            // Toggle explanation visibility
+            if (explanationDiv.classList.contains('hidden')) {
+                // Show explanation and fetch data
+                explanationDiv.classList.remove('hidden');
+                this.textContent = 'Hide explanation';
+                
+                // Check if explanation already loaded
+                if (explanationDiv.querySelector('.loading-text')) {
+                    fetchExplanation(movieId, explanationDiv);
+                }
+            } else {
+                // Hide explanation
+                explanationDiv.classList.add('hidden');
+                this.textContent = 'Why recommended?';
+            }
+        });
+    });
+    
+    function fetchExplanation(movieId, explanationDiv) {
+        fetch(`/explain/${movieId}/`, {
+            method: 'POST',
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+                'X-CSRFToken': getCookie('csrftoken'),
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({})
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                displayExplanation(explanationDiv, data.explanation, data.movie_title);
+            } else {
+                explanationDiv.innerHTML = `
+                    <div class="text-red-400">
+                        <strong>Error:</strong> ${data.error || 'Could not load explanation'}
+                    </div>
+                `;
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching explanation:', error);
+            explanationDiv.innerHTML = `
+                <div class="text-red-400">
+                    <strong>Error:</strong> Failed to load explanation
+                </div>
+            `;
+        });
+    }
+    
+    function displayExplanation(container, explanation, movieTitle) {
+        let html = `<div class="explanation-data">`;
+        
+        if (explanation.error) {
+            html += `<div class="text-red-400"><strong>Error:</strong> ${explanation.error}</div>`;
+        } else {
+            // Main reason
+            if (explanation.reason) {
+                html += `<div class="mb-2"><strong>Reason:</strong> ${explanation.reason}</div>`;
+            }
+            
+            // Prediction score
+            if (explanation.prediction_score !== undefined) {
+                html += `<div class="mb-1"><strong>Prediction Score:</strong> ${explanation.prediction_score}</div>`;
+            }
+            
+            // Matching genres
+            if (explanation.matching_genres && explanation.matching_genres.length > 0) {
+                html += `<div class="mb-1"><strong>Matching Genres:</strong> ${explanation.matching_genres.join(', ')}</div>`;
+            }
+            
+            // Movie genres
+            if (explanation.movie_genres && explanation.movie_genres.length > 0) {
+                html += `<div class="mb-1"><strong>Movie Genres:</strong> ${explanation.movie_genres.join(', ')}</div>`;
+            }
+            
+            // User preferred genres
+            if (explanation.user_preferred_genres && explanation.user_preferred_genres.length > 0) {
+                html += `<div class="mb-1"><strong>Your Preferences:</strong> ${explanation.user_preferred_genres.join(', ')}</div>`;
+            }
+        }
+        
+        html += `</div>`;
+        container.innerHTML = html;
+    }
+    
+    // Helper function to get CSRF token
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+});
+</script>
+{% endblock %}

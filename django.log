@@ -1,0 +1,2364 @@
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/wsgi.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/wsgi.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+"GET /accounts/login/ HTTP/1.1" 200 7321
+"POST /accounts/login/ HTTP/1.1" 200 7798
+"POST /accounts/login/ HTTP/1.1" 302 0
+Internal Server Error: /accounts/profile/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 30, in profile
+    return render(request, 'accounts/profile.html', {'user': request.user})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/profile.html
+"GET /accounts/profile/ HTTP/1.1" 500 88578
+/Users/siddharth/transparent-movie-recommender/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/profile/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 30, in profile
+    return render(request, 'accounts/profile.html', {'user': request.user})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/profile.html
+"GET /accounts/profile/ HTTP/1.1" 500 88587
+Internal Server Error: /accounts/profile/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 30, in profile
+    return render(request, 'accounts/profile.html', {'user': request.user})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/profile.html
+"GET /accounts/profile/ HTTP/1.1" 500 88587
+/Users/siddharth/transparent-movie-recommender/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /accounts/profile/ HTTP/1.1" 302 0
+Internal Server Error: /recommender/welcome/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py", line 384, in welcome
+    return render(request, 'recommender/welcome.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: recommender/welcome.html
+"GET /recommender/welcome/ HTTP/1.1" 500 89196
+Internal Server Error: /recommender/welcome/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py", line 384, in welcome
+    return render(request, 'recommender/welcome.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: recommender/welcome.html
+"GET /recommender/welcome/ HTTP/1.1" 500 89196
+"GET /recommender/welcome/ HTTP/1.1" 200 14891
+/Users/siddharth/transparent-movie-recommender/apps/accounts/apps.py changed, reloading.
+Watching for file changes with StatReloader
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Model training failed: No ratings found in database
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Model training failed: 'User' object has no attribute 'date_of_birth'
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Data prepared: 1 users, 20 items, 20 interactions
+Model training failed: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Data prepared: 1 users, 20 items, 20 interactions
+Very small dataset detected. Using all data for training (no test split).
+Evaluation failed (tiny dataset): Incorrect number of features in item_features
+Model saved to /Users/siddharth/transparent-movie-recommender/models/lightfm_model.pkl
+Model training failed: relation "recommender_modelversion" does not exist
+LINE 1: INSERT INTO "recommender_modelversion" ("version_name", "alg...
+                    ^
+
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Data prepared: 1 users, 20 items, 20 interactions
+Very small dataset detected. Using all data for training (no test split).
+Evaluation failed (tiny dataset): Incorrect number of features in item_features
+Model saved to /Users/siddharth/transparent-movie-recommender/models/lightfm_model.pkl
+Initializing recommendation explainers...
+Model training failed: 'User' object has no attribute 'date_of_birth'
+Starting LightFM model training...
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Data prepared: 1 users, 20 items, 20 interactions
+Very small dataset detected. Using all data for training (no test split).
+Evaluation failed (tiny dataset): Incorrect number of features in item_features
+Model saved to /Users/siddharth/transparent-movie-recommender/models/lightfm_model.pkl
+Initializing explainers...
+Initializing recommendation explainers...
+Model training failed: ModelVersion() got unexpected keyword arguments: 'metrics'
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/management/commands/train_lightfm.py", line 60, in handle
+    mv = ModelVersion.objects.create(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 656, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: ModelVersion() got unexpected keyword arguments: 'metrics'
+Starting LightFM model training...
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Data prepared: 1 users, 20 items, 20 interactions
+Very small dataset detected. Using all data for training (no test split).
+Evaluation failed (tiny dataset): Incorrect number of features in item_features
+Model saved to /Users/siddharth/transparent-movie-recommender/models/lightfm_model.pkl
+Initializing explainers...
+Initializing recommendation explainers...
+Model training failed: null value in column "training_data_size" of relation "recommender_modelversion" violates not-null constraint
+DETAIL:  Failing row contains (2, v1, lightfm, null, null, null, null, null, null, f, , 2025-09-17 13:38:30.713934+00, {"status": "trained_but_no_evaluation"}).
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "training_data_size" of relation "recommender_modelversion" violates not-null constraint
+DETAIL:  Failing row contains (2, v1, lightfm, null, null, null, null, null, null, f, , 2025-09-17 13:38:30.713934+00, {"status": "trained_but_no_evaluation"}).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/management/commands/train_lightfm.py", line 60, in handle
+    mv = ModelVersion.objects.create(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "training_data_size" of relation "recommender_modelversion" violates not-null constraint
+DETAIL:  Failing row contains (2, v1, lightfm, null, null, null, null, null, null, f, , 2025-09-17 13:38:30.713934+00, {"status": "trained_but_no_evaluation"}).
+
+Starting LightFM model training...
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Data prepared: 1 users, 20 items, 20 interactions
+Very small dataset detected. Using all data for training (no test split).
+Evaluation failed (tiny dataset): Incorrect number of features in item_features
+Model saved to /Users/siddharth/transparent-movie-recommender/models/lightfm_model.pkl
+Initializing explainers...
+Initializing recommendation explainers...
+Explainability modules initialized (placeholder).
+Model training failed: ModelVersion() got unexpected keyword arguments: 'num_users', 'num_items', 'num_interactions', 'num_epochs', 'num_components', 'learning_rate', 'loss_function'
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/management/commands/train_lightfm.py", line 82, in handle
+    mv = ModelVersion.objects.create(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 656, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: ModelVersion() got unexpected keyword arguments: 'num_users', 'num_items', 'num_interactions', 'num_epochs', 'num_components', 'learning_rate', 'loss_function'
+Starting LightFM model training...
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Data prepared: 1 users, 20 items, 20 interactions
+Very small dataset detected. Using all data for training (no test split).
+Evaluation failed (tiny dataset): Incorrect number of features in item_features
+Model saved to /Users/siddharth/transparent-movie-recommender/models/lightfm_model.pkl
+Initializing explainers...
+Initializing recommendation explainers...
+Explainability modules initialized (placeholder).
+Starting LightFM model training...
+Training LightFM model with 30 epochs...
+Preparing data for LightFM training...
+Data prepared: 16 users, 195 items, 620 interactions
+Evaluation failed (tiny dataset): Incorrect number of features in item_features
+Model saved to /Users/siddharth/transparent-movie-recommender/models/lightfm_model.pkl
+Initializing explainers...
+Initializing SHAP explainer...
+Initializing LIME explainer...
+✅ SHAP and LIME explainers initialized successfully
+Watching for file changes with StatReloader
+Not Found: /recommender/welcome/
+"GET /recommender/welcome/ HTTP/1.1" 404 2949
+Not Found: /recommender/welcome/
+"GET /recommender/welcome/ HTTP/1.1" 404 2949
+Not Found: /recommender/welcome/
+"GET /recommender/welcome/ HTTP/1.1" 404 2949
+"GET /accounts/login/ HTTP/1.1" 200 8632
+"POST /accounts/login/ HTTP/1.1" 302 0
+Model loaded from models/lightfm_model.pkl
+"GET /recommender/recommendations/ HTTP/1.1" 200 4248
+"GET /accounts/login/ HTTP/1.1" 200 8632
+Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 18, in register
+    return render(request, "accounts/register.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/register.html
+"GET /accounts/register/ HTTP/1.1" 500 84864
+"GET /accounts/login/ HTTP/1.1" 200 8632
+"GET /recommender/recommendations/ HTTP/1.1" 200 4248
+"GET /accounts/login/ HTTP/1.1" 200 8632
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET /recommender/recommendations/ HTTP/1.1" 200 4248
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Model loaded from models/lightfm_model.pkl
+"GET /recommender/recommendations/ HTTP/1.1" 200 4248
+"GET /accounts/login/ HTTP/1.1" 200 8632
+"GET /admin/ HTTP/1.1" 200 0
+"GET /accounts/login/ HTTP/1.1" 200 8632
+"GET /accounts/password_reset/ HTTP/1.1" 200 0
+"GET /accounts/login/ HTTP/1.1" 200 8632
+Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 18, in register
+    return render(request, "accounts/register.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/register.html
+"GET /accounts/register/ HTTP/1.1" 500 84864
+"GET /accounts/login/ HTTP/1.1" 200 8632
+Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 18, in register
+    return render(request, "accounts/register.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/register.html
+"GET /accounts/register/ HTTP/1.1" 500 84864
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /accounts/register/ HTTP/1.1" 200 10535
+"GET /accounts/login/ HTTP/1.1" 200 8632
+"POST /accounts/login/ HTTP/1.1" 200 9109
+"POST /accounts/login/ HTTP/1.1" 302 0
+Model loaded from models/lightfm_model.pkl
+"GET /recommender/recommendations/ HTTP/1.1" 200 4248
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Model loaded from models/lightfm_model.pkl
+"GET /recommender/recommendations/ HTTP/1.1" 200 4248
+Not Found: /accounts/login/
+"GET /accounts/login/ HTTP/1.1" 404 2898
+Not Found: /accounts/register/
+"GET /accounts/register/ HTTP/1.1" 404 2907
+/Users/siddharth/transparent-movie-recommender/apps/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 140, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+"GET /accounts/login/ HTTP/1.1" 500 84540
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 140, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+"GET /accounts/login/ HTTP/1.1" 500 84540
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 140, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+"GET /accounts/login/ HTTP/1.1" 500 84540
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 140, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+"GET /accounts/login/ HTTP/1.1" 500 84540
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 140, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset' not found. 'password_reset' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 166582
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 140, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset' not found. 'password_reset' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 166582
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 140, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset' not found. 'password_reset' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 166582
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 140, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset' not found. 'password_reset' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 166582
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/config/urls.py", line 29, in root_redirect
+    if not request.user.survey_completed:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'survey_completed'
+"GET / HTTP/1.1" 500 72486
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/config/urls.py", line 29, in root_redirect
+    if not request.user.survey_completed:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'survey_completed'
+"GET / HTTP/1.1" 500 72623
+/Users/siddharth/transparent-movie-recommender/apps/accounts/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/views.py", line 8, in home
+    profile = request.user.profile
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 492, in __get__
+    raise self.RelatedObjectDoesNotExist(
+django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no profile.
+"GET / HTTP/1.1" 500 76681
+/Users/siddharth/transparent-movie-recommender/apps/accounts/apps.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/views.py", line 8, in home
+    profile = request.user.profile
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 492, in __get__
+    raise self.RelatedObjectDoesNotExist(
+django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no profile.
+"GET / HTTP/1.1" 500 76818
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/views.py", line 8, in home
+    profile = request.user.profile
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 492, in __get__
+    raise self.RelatedObjectDoesNotExist(
+django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no profile.
+"GET / HTTP/1.1" 500 76818
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/views.py", line 8, in home
+    profile = request.user.profile
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 492, in __get__
+    raise self.RelatedObjectDoesNotExist(
+django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no profile.
+"GET / HTTP/1.1" 500 76818
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+Internal Server Error: /accounts/survey/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 167, in survey
+    return render(request, "accounts/survey.html", {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/survey.html
+"GET /accounts/survey/ HTTP/1.1" 500 90401
+Internal Server Error: /accounts/survey/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 167, in survey
+    return render(request, "accounts/survey.html", {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/survey.html
+"GET /accounts/survey/ HTTP/1.1" 500 90401
+Internal Server Error: /accounts/survey/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 167, in survey
+    return render(request, "accounts/survey.html", {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/survey.html
+"GET /accounts/survey/ HTTP/1.1" 500 90401
+Internal Server Error: /accounts/survey/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 167, in survey
+    return render(request, "accounts/survey.html", {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/survey.html
+"GET /accounts/survey/ HTTP/1.1" 500 90401
+"GET /accounts/survey/ HTTP/1.1" 200 14891
+Watching for file changes with StatReloader
+"GET /accounts/survey/ HTTP/1.1" 200 14891
+Not Found: /api/recommender/survey/
+"POST /api/recommender/survey/ HTTP/1.1" 404 2590
+Not Found: /api/recommender/survey/
+"POST /api/recommender/survey/ HTTP/1.1" 404 2590
+Not Found: /api/recommender/survey/
+"POST /api/recommender/survey/ HTTP/1.1" 404 2590
+Not Found: /api/recommender/survey/
+"POST /api/recommender/survey/ HTTP/1.1" 404 2590
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /accounts/survey/ HTTP/1.1" 200 14891
+Not Found: /api/recommender/survey/
+"POST /api/recommender/survey/ HTTP/1.1" 404 2590
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /accounts/survey/ HTTP/1.1" 200 15295
+"POST /accounts/survey/api/ HTTP/1.1" 200 51
+Not Found: /recommender/recommendations-page/
+"GET /recommender/recommendations-page/ HTTP/1.1" 404 3097
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /recommender/recommendations-page/
+"GET /recommender/recommendations-page/ HTTP/1.1" 404 3097
+Not Found: /recommender/recommendations-page/
+"GET /recommender/recommendations-page/ HTTP/1.1" 404 3097
+Watching for file changes with StatReloader
+Not Found: /recommender/recommendations-page/
+"GET /recommender/recommendations-page/ HTTP/1.1" 404 3097
+"GET /accounts/survey/ HTTP/1.1" 200 15290
+"POST /accounts/survey/api/ HTTP/1.1" 200 100
+Model loaded from models/lightfm_model.pkl
+"GET /recommender/recommendations/ HTTP/1.1" 200 4248
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+Model loaded from models/lightfm_model.pkl
+"GET /recommender/recommendations/ HTTP/1.1" 200 21274
+"GET /static/js/explanations.js HTTP/1.1" 200 7248
+Not Found: /recommender/recommendations/None
+"GET /recommender/recommendations/None HTTP/1.1" 404 3094
+Bad Request: /recommender/explain/
+"POST /recommender/explain/ HTTP/1.1" 400 33
+Bad Request: /recommender/explain/
+"POST /recommender/explain/ HTTP/1.1" 400 33
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+Model loaded from models/lightfm_model.pkl
+"GET /recommender/recommendations/ HTTP/1.1" 200 21274
+Not Found: /recommender/recommendations/None
+"GET /recommender/recommendations/None HTTP/1.1" 404 3094
+Method Not Allowed (POST): /recommender/explain/
+"POST /recommender/explain/ HTTP/1.1" 405 0
+Method Not Allowed (POST): /recommender/explain/
+"POST /recommender/explain/ HTTP/1.1" 405 0
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Model loaded from models/lightfm_model.pkl
+"GET /recommender/recommendations/ HTTP/1.1" 200 21274
+Not Found: /recommender/recommendations/None
+"GET /recommender/recommendations/None HTTP/1.1" 404 3094
+"GET /recommender/recommendations/ HTTP/1.1" 200 21274
+Not Found: /recommender/recommendations/None
+"GET /recommender/recommendations/None HTTP/1.1" 404 3094
+Bad Request: /recommender/explain/
+"POST /recommender/explain/ HTTP/1.1" 400 50
+"GET /recommender/recommendations/ HTTP/1.1" 200 21274
+Not Found: /recommender/recommendations/None
+"GET /recommender/recommendations/None HTTP/1.1" 404 3094
+"GET /recommender/recommendations/ HTTP/1.1" 200 21274
+Not Found: /recommender/recommendations/None
+"GET /recommender/recommendations/None HTTP/1.1" 404 3094
+Bad Request: /recommender/explain/
+"POST /recommender/explain/ HTTP/1.1" 400 50
+"GET /admin/ HTTP/1.1" 200 0
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /recommender/recommendations/ HTTP/1.1" 200 614
+"GET /accounts/survey/ HTTP/1.1" 200 614
+"GET /recommender/recommendations/ HTTP/1.1" 200 614
+"GET /recommender/recommendations/ HTTP/1.1" 200 614
+"GET /accounts/logout/ HTTP/1.1" 302 0
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 175, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'signup' not found. 'signup' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 162857
+"GET /recommender/recommendations/ HTTP/1.1" 302 0
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 175, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'signup' not found. 'signup' is not a valid view function or pattern name.
+"GET /accounts/login/?next=/recommender/recommendations/ HTTP/1.1" 500 163485
+"GET /accounts/survey/ HTTP/1.1" 302 0
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 175, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'signup' not found. 'signup' is not a valid view function or pattern name.
+"GET /accounts/login/?next=/accounts/survey/ HTTP/1.1" 500 163365
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/views.py", line 6, in home
+    return render(request, "home.html")  # guest landing page
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'signup' not found. 'signup' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 159022
+/Users/siddharth/transparent-movie-recommender/apps/recommender/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5035
+Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 30, in signup
+    return render(request, "accounts/signup.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/signup.html
+"GET /accounts/signup/ HTTP/1.1" 500 84413
+"GET /accounts/signup/ HTTP/1.1" 200 9225
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 48, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset' not found. 'password_reset' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 166457
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 48, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset' not found. 'password_reset' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 166457
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 48, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset' not found. 'password_reset' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 166624
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 48, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset' not found. 'password_reset' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 166624
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 48, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset' not found. 'password_reset' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 166487
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py", line 48, in login_view
+    return render(request, "accounts/login.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset' not found. 'password_reset' is not a valid view function or pattern name.
+"GET /accounts/login/ HTTP/1.1" 500 166594
+"GET /accounts/login/ HTTP/1.1" 200 7298
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET /accounts/post-login/ HTTP/1.1" 302 0
+Model loaded from models/lightfm_model.pkl
+"GET /recommender/recommendations/ HTTP/1.1" 200 21275
+Not Found: /recommender/recommendations/None
+"GET /recommender/recommendations/None HTTP/1.1" 404 3094
+Bad Request: /recommender/explain/
+"POST /recommender/explain/ HTTP/1.1" 400 50
+Watching for file changes with StatReloader
+Model loaded from models/lightfm_model.pkl
+"GET /recommender/recommendations/ HTTP/1.1" 200 6622
+"GET /static/js/explanations.js HTTP/1.1" 304 0
+Starting LightFM model training...
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Model training failed: No ratings found in database
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/management/commands/train_lightfm.py", line 163, in handle
+    metrics, training_stats = lightfm_engine.train_with_stats(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/recommender/lightfm_engine.py", line 782, in train_with_stats
+    interactions, weights = self.prepare_data()
+                            ^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/recommender/lightfm_engine.py", line 512, in prepare_data
+    raise ValueError("No ratings found in database")
+ValueError: No ratings found in database
+Starting LightFM model training...
+Training LightFM model with 20 epochs...
+Preparing data for LightFM training...
+Data prepared: 100 users, 200 items, 2000 interactions
+Evaluation failed (tiny dataset): Incorrect number of features in item_features
+Model saved to /Users/siddharth/transparent-movie-recommender/models/lightfm_model.pkl
+Initializing explainers...
+Initializing SHAP explainer...
+Initializing LIME explainer...
+✅ SHAP and LIME explainers initialized successfully
+Watching for file changes with StatReloader
+Model loaded from models/lightfm_model.pkl
+User 1 not in training set. Cold-start.
+"GET /recommender/recommendations/ HTTP/1.1" 200 21431
+Bad Request: /recommender/explain/
+"POST /recommender/explain/ HTTP/1.1" 400 50
+User 1 not in training set. Cold-start.
+"GET /recommender/recommendations/ HTTP/1.1" 200 21431
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/recommender/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/views.py", line 12, in home
+    return redirect("recommender:recommendations_page")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'recommendations_page' not found. 'recommendations_page' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 87195
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+"GET /admin/ HTTP/1.1" 200 0
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+Watching for file changes with StatReloader
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+Starting LightFM model training...
+Model training failed: name 'lightfm_engine' is not defined
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/management/commands/train_lightfm.py", line 162, in handle
+    metrics, training_stats = lightfm_engine.train_with_stats(
+                              ^^^^^^^^^^^^^^
+NameError: name 'lightfm_engine' is not defined
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "auth_user" does not exist
+LINE 1: ...user"."is_active", "auth_user"."date_joined" FROM "auth_user...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/views.py", line 5, in home
+    if not request.user.is_authenticated:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "auth_user" does not exist
+LINE 1: ...user"."is_active", "auth_user"."date_joined" FROM "auth_user...
+                                                             ^
+
+"GET / HTTP/1.1" 500 156263
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "auth_user" does not exist
+LINE 1: ...user"."is_active", "auth_user"."date_joined" FROM "auth_user...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/apps/core/views.py", line 5, in home
+    if not request.user.is_authenticated:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 198, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/contrib/auth/backends.py", line 161, in get_user
+    user = UserModel._default_manager.get(pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "auth_user" does not exist
+LINE 1: ...user"."is_active", "auth_user"."date_joined" FROM "auth_user...
+                                                             ^
+
+"GET / HTTP/1.1" 500 156263
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5035
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2553
+"GET /accounts/login/ HTTP/1.1" 200 7298
+"POST /accounts/login/ HTTP/1.1" 200 7775
+Watching for file changes with StatReloader
+"POST /accounts/login/ HTTP/1.1" 200 7775
+"POST /accounts/login/ HTTP/1.1" 200 7775
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET /accounts/post-login/ HTTP/1.1" 302 0
+"GET /accounts/survey/ HTTP/1.1" 200 15291
+"POST /accounts/survey/api/ HTTP/1.1" 200 100
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+Watching for file changes with StatReloader
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+Not Found: /templates/home.html
+"GET /templates/home.html HTTP/1.1" 404 2577
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/movies/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/movies/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/movies/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/config/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /recommender/recommendations/ HTTP/1.1" 200 10642
+"GET /recommender/recommendations/ HTTP/1.1" 200 10738
+"GET / HTTP/1.1" 200 6442
+"GET /accounts/login/ HTTP/1.1" 200 8705
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET /accounts/post-login/ HTTP/1.1" 302 0
+"GET /recommender/recommendations/ HTTP/1.1" 200 10738
+"GET / HTTP/1.1" 200 6442
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 6272
+"GET / HTTP/1.1" 200 6272
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /accounts/login/ HTTP/1.1" 200 7298
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET /accounts/post-login/ HTTP/1.1" 302 0
+"GET /recommender/recommendations/ HTTP/1.1" 200 10738
+"GET / HTTP/1.1" 200 6272
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 6272
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /accounts/login/ HTTP/1.1" 200 7298
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET /accounts/post-login/ HTTP/1.1" 302 0
+"GET /recommender/recommendations/ HTTP/1.1" 200 10738
+"GET / HTTP/1.1" 200 6272
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 6272
+"GET / HTTP/1.1" 200 6272
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /accounts/login/ HTTP/1.1" 200 7298
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET /accounts/post-login/ HTTP/1.1" 302 0
+"GET /recommender/recommendations/ HTTP/1.1" 200 10738
+"GET / HTTP/1.1" 200 6272
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 39183
+"GET / HTTP/1.1" 200 39183
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /accounts/login/ HTTP/1.1" 200 7298
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET /accounts/post-login/ HTTP/1.1" 302 0
+"GET /recommender/recommendations/ HTTP/1.1" 200 10738
+"GET / HTTP/1.1" 200 39183
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 39183
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /accounts/login/ HTTP/1.1" 200 7298
+"POST /accounts/login/ HTTP/1.1" 302 0
+Internal Server Error: /accounts/post-login/
+Traceback (most recent call last):
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/siddharth/transparent-movie-recommender/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.accounts.views.post_login_redirect didn't return an HttpResponse object. It returned None instead.
+"GET /accounts/post-login/ HTTP/1.1" 500 70316
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/siddharth/transparent-movie-recommender/apps/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /accounts/post-login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 39183
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /accounts/login/ HTTP/1.1" 200 7298
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET /accounts/post-login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 39183
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 39183
+"GET /accounts/logout/ HTTP/1.1" 302 0
+"GET /accounts/login/ HTTP/1.1" 200 7298
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET /accounts/post-login/ HTTP/1.1" 302 0
+"GET /accounts/survey/ HTTP/1.1" 200 15382
+"POST /accounts/survey/api/ HTTP/1.1" 200 72
+"GET /recommender/recommendations/ HTTP/1.1" 200 10733
+"GET /accounts/survey/ HTTP/1.1" 200 15382

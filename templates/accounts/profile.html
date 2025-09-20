@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Your Profile{% endblock %}
+{% block content %}
+<div class="max-w-xl mx-auto p-6 bg-gray-900 text-white rounded-lg shadow-lg">
+  <h1 class="text-2xl font-bold mb-4">Profile</h1>
+  <p><b>Username:</b> {{ user.username }}</p>
+  <p><b>Email:</b> {{ user.email }}</p>
+  <p><b>Favorite Genres:</b> {{ user.profile.favorite_genres }}</p>
+  <p><b>Languages:</b> {{ user.profile.preferred_languages }}</p>
+  <p><b>Openness:</b> {{ user.profile.openness_to_new }}/10</p>
+</div>
+{% endblock %}

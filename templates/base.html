@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Movie Recommender{% endblock %}</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        netflix: {
+                            red: '#E50914',
+                            black: '#141414',
+                            gray: '#2F2F2F'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Chart.js for SHAP visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Alpine.js for interactivity -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
+    <!-- Custom CSS -->
+    <style>
+        .movie-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .movie-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+        .explanation-modal {
+            backdrop-filter: blur(10px);
+        }
+        .star-rating {
+            display: inline-flex;
+            gap: 2px;
+        }
+        .star {
+            cursor: pointer;
+            color: #666;
+            transition: color 0.2s;
+        }
+        .star.active {
+            color: #ffd700;
+        }
+        .star:hover {
+            color: #ffd700;
+        }
+    </style>
+</head>
+<body class="bg-netflix-black text-white min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-netflix-black border-b border-netflix-gray px-6 py-4 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center space-x-8">
+                <h1 class="text-netflix-red text-2xl font-bold">MovieRec</h1>
+                {% if user.is_authenticated %}
+                <div class="hidden md:flex space-x-6">
+                    <!-- <a href="{% url 'recommender:recommendations' %}" class="hover:text-gray-300 transition-colors">Home</a> -->
+                    <a href="{% url 'home' %}" class="hover:text-gray-300 transition-colors">Home</a>
+                    <a href="#" class="hover:text-gray-300 transition-colors">Browse</a>
+                    <a href="#" class="hover:text-gray-300 transition-colors">My List</a>
+                </div>
+                {% endif %}
+            </div>
+            
+            <div class="flex items-center space-x-4">
+                {% if user.is_authenticated %}
+                    <span class="text-sm text-gray-300">Hello, {{ user.first_name|default:user.username }}</span>
+                    <div class="relative group">
+                        <button class="w-8 h-8 bg-netflix-red rounded flex items-center justify-center text-sm font-semibold">
+                            {{ user.first_name.0|default:user.username.0|upper }}
+                        </button>
+                        <div class="absolute right-0 mt-2 w-48 bg-netflix-gray rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                            <div class="py-1">
+                                <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-700">Profile</a>
+                                <a href="/admin/" class="block px-4 py-2 text-sm hover:bg-gray-700">Admin</a>
+                                <hr class="border-gray-600">
+                                <a href="{% url 'accounts:logout' %}" class="block px-4 py-2 text-sm hover:bg-gray-700">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                {% else %}
+                    <a href="{% url 'accounts:login' %}" class="bg-netflix-red px-4 py-2 rounded hover:bg-red-700 transition-colors">Sign In</a>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Global JavaScript -->
+    <script>
+        // CSRF Token for AJAX requests
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+        const csrftoken = getCookie('csrftoken');
+
+        // Global API helper
+        window.api = {
+            async request(url, options = {}) {
+                const config = {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': csrftoken,
+                        ...options.headers
+                    },
+                    ...options
+                };
+                
+                const response = await fetch(url, config);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            }
+        };
+
+        // Global notification system
+        window.showNotification = function(message, type = 'info') {
+            const notification = document.createElement('div');
+            notification.className = `fixed top-4 right-4 p-4 rounded-lg shadow-lg z-50 transition-all duration-300 ${
+                type === 'success' ? 'bg-green-600' : 
+                type === 'error' ? 'bg-red-600' : 
+                'bg-blue-600'
+            }`;
+            notification.textContent = message;
+            
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.opacity = '0';
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
+        };
+    </script>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
